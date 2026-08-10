@@ -1,4 +1,4 @@
-# Threadwork
+# Info
 
 A subscription-based community for tutorials, behind-the-scenes posts, and how-tos —
 where every tutorial is a thread other members can add to, extend, or make more efficient.
@@ -16,7 +16,7 @@ payments, or live audio/video. That's the next phase — see **Roadmap** below.
 - **Next.js 16** (App Router) + **React 19**
 - **Tailwind CSS 4** (CSS-first config, see `app/globals.css`)
 - **lucide-react** for icons
-- Fonts: Fraunces (display) + Karla (body), self-hosted via `next/font`
+- Fonts: Fraunces (display) + Karla (body), loaded via Google Fonts `@import` in `app/globals.css`
 
 ## Getting started
 
@@ -32,10 +32,10 @@ Then open http://localhost:3000.
 ```
 app/
   layout.jsx        root layout, fonts, metadata
-  page.jsx           entry point → renders ThreadworkApp
+  page.jsx           entry point → renders InfoApp
   globals.css         Tailwind import + design tokens + component styles
 components/
-  ThreadworkApp.jsx   top-level shell: nav state, routes between pages
+  InfoApp.jsx   top-level shell: nav state, routes between pages
   Sidebar.jsx
   Feed.jsx            home feed + PostCard
   ThreadDetail.jsx     tutorial thread + "extend this thread" composer

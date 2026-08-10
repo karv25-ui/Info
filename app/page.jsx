@@ -1,5 +1,5 @@
-import ThreadworkApp from "@/components/ThreadworkApp";
+import InfoApp from "@/components/InfoApp";
 
 export default function Page() {
-  return <ThreadworkApp />;
+  return <InfoApp />;
 }

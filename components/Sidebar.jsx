@@ -15,9 +15,9 @@ export default function Sidebar({ active, setActive, myTier }) {
   return (
     <div className="tw-sidebar">
       <div className="tw-brand">
-        <div className="tw-brand-mark">T</div>
+        <div className="tw-brand-mark">I</div>
         <div className="tw-brand-text">
-          <div className="tw-wordmark">Threadwork</div>
+          <div className="tw-wordmark">Info</div>
           <div className="tw-tagline">learn out loud</div>
         </div>
       </div>

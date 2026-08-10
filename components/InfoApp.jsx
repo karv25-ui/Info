@@ -8,7 +8,7 @@ import GroupsPage from "@/components/GroupsPage";
 import ProfilePage from "@/components/ProfilePage";
 import SubscriptionPage from "@/components/SubscriptionPage";
 
-export default function ThreadworkApp() {
+export default function InfoApp() {
   const [active, setActive] = useState("home");
   const [openPost, setOpenPost] = useState(null);
   const [myTier, setMyTier] = useState("plus");

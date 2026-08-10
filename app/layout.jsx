@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Threadwork — learn out loud",
+  title: "Info — learn out loud",
   description:
     "A subscription community for tutorials, behind-the-scenes, and how-tos that grow every time someone adds to the thread.",
 };
